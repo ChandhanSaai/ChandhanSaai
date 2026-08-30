@@ -15,12 +15,12 @@ and "ship the system."
 
 | Project | What it is |
 |---|---|
-| [Project D3 — Multi-Agent LLM Evaluation](https://github.com/ChandhanSaai/Project_D3) | Role-specialized LLM agents — advocates, a judge, and an optional jury — that evaluate model outputs through structured adversarial debate. |
-| [GPT from Scratch](https://github.com/ChandhanSaai/GPT-Transformer-Architecture-with-Production-Training-Pipeline) | A GPT-2.5-style transformer implemented from the ground up with a production training pipeline. |
-| [Browser Autopilot](https://github.com/ChandhanSaai/Browser-Autopilot) | An LLM agent that performs real web tasks and auto-generates step-by-step visual tutorials. |
-| [LLM-Triaged Security Audit](https://github.com/ChandhanSaai/multi-scanner-security-audit-with-llm-triage) | 8 scanners merged into one report, then LLM-triaged for dedupe, false-positive filtering, and exploitability ranking. |
-| [RL Pick-and-Place — Panda Robot](https://github.com/ChandhanSaai/-Reinforcement-Learning-Based-Pick-and-Place-Task-for-Panda-Robot) | Soft Actor-Critic agent trained in robosuite + Stable Baselines3 for robotic manipulation. |
-| [ROS 2 Pallet Detection](https://github.com/ChandhanSaai/ROS2-Pallet-detection-and-ground-segmentation) | Real-time pallet detection and ground segmentation with YOLOv11 on ROS 2. |
+| [Project D3 — Multi-Agent LLM Evaluation](https://github.com/ChandhanSaai/Project_D3) | Role-specialized LLM agents — advocates, a judge, and an optional jury — score model outputs through structured adversarial debate; two eval protocols with agreement, κ, and position-bias metrics. |
+| [Browser Autopilot](https://github.com/ChandhanSaai/Browser-Autopilot) | A vision-driven browser agent: a LangGraph + Playwright loop that turns plain-English web tasks into actions and auto-generates illustrated step-by-step tutorials. |
+| [LLM-Triaged Security Audit](https://github.com/ChandhanSaai/multi-scanner-security-audit-with-llm-triage) | Merges 8 SAST/secret/dependency scanners into one SARIF, then a two-pass LLM dedupes, filters false positives, and runs a semantic authz/IDOR reasoning pass into a ranked report. |
+| [GPT from Scratch](https://github.com/ChandhanSaai/GPT-Transformer-Architecture-with-Production-Training-Pipeline) | A GPT-2-style transformer implemented from scratch in PyTorch — hand-built multi-head attention, weight tying, and a mixed-precision + gradient-accumulation training loop. |
+| [Reinforcement Learning — Panda Arm](https://github.com/ChandhanSaai/-Reinforcement-Learning-Based-Pick-and-Place-Task-for-Panda-Robot) | A Soft Actor-Critic agent (Stable-Baselines3 + PyTorch) trained in the robosuite simulator to control a Franka Panda arm on a manipulation task. |
+| [Autonomous Robot Perception — TurtleBot](https://github.com/ChandhanSaai/ROS_2_TurtleBot_perception_project) | ROS 2 perception on a real TurtleBot: RANSAC vanishing-point detection, optical-flow obstacle stops, and a custom-trained YOLO detector driving lane-following in sim and on hardware. |
 
 ---
 
