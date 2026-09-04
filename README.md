@@ -1,5 +1,7 @@
 # Hi, I'm Chandhan 👋
 
+🌐 **[chandhan.com](https://chandhan.com)**: case studies with live demos, and the notes behind each project.
+
 **AI Engineer.** I build LLM systems end to end — multi-agent pipelines, evals,
 RAG, and the production infrastructure they run on. Background in reinforcement
 learning and robotics, so I'm comfortable anywhere between "train the model"
