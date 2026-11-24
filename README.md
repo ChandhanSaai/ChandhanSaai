@@ -1,15 +1,22 @@
 # Hi, I'm Chandhan 👋
 
-🌐 **[chandhan.com](https://chandhan.com)**: case studies with live demos, and the notes behind each project.
+**Applied AI engineer in San Francisco.** I build LLM systems and the proof that they work: evaluation
+harnesses, AI agents, reinforcement-learning environments, and the production backend they run on.
+Background in robotics (M.Eng, University of Maryland), so I trust systems that survive real conditions.
 
-**AI Engineer.** I build LLM systems end to end — multi-agent pipelines, evals,
-RAG, and the production infrastructure they run on. Background in reinforcement
-learning and robotics, so I'm comfortable anywhere between "train the model"
-and "ship the system."
+🟢 **Open to AI / ML / LLM engineer roles** · authorized to work in the US now (STEM OPT)
+🌐 [chandhan.com](https://chandhan.com) · [LinkedIn](https://www.linkedin.com/in/chandhan-saai-katuri) · hello@chandhan.com
 
-- 🧠 LLM systems: multi-agent orchestration, adversarial evals, RAG, structured outputs
-- 🤖 Applied ML: transformers from scratch, reinforcement learning, computer vision
-- ⚙️ Production: Django services, AWS, Docker, Postgres, Prometheus — AI that actually ships
+---
+
+### 💼 Recent work (Verita AI, Software Engineer)
+
+- Delivered and hardened **reinforcement-learning environments** used in a frontier AI lab's model post-training: containerized tasks, verifiers and reward logic, including a fix for reward hacking.
+- Built a production **vision-LLM audit pipeline** that reviews screenshots of contractor work sessions against project rules, with cross-provider model benchmarking and sealed, recomputable payout ledgers.
+- Built an **MCP server** (Python, FastMCP) connecting a client's expert-evaluation pipeline to Verita's annotation platform.
+- Led **SOC 2 Type II** readiness and built a multi-scanner application-security pipeline with LLM-assisted triage.
+
+That code is private; the projects below are public.
 
 ---
 
@@ -17,24 +24,21 @@ and "ship the system."
 
 | Project | What it is |
 |---|---|
-| [Project D3 — Multi-Agent LLM Evaluation](https://github.com/ChandhanSaai/Project_D3) | Role-specialized LLM agents — advocates, a judge, and an optional jury — score model outputs through structured adversarial debate; two eval protocols with agreement, κ, and position-bias metrics. |
+| [Visa Grep](https://visagrep.com) (live) | Free search of any U.S. employer's H-1B record: Department of Labor filings, USCIS approvals, salaries, green-card (PERM) filings and E-Verify status, with a source for every number. 3.75M H-1B filings across 228K employers, plus a free JSON API and a hosted MCP server for AI assistants. |
+| [Project D3: Multi-Agent LLM Evaluation](https://github.com/ChandhanSaai/Project_D3) | Role-specialized LLM agents (advocates, a judge, and an optional jury) score model outputs through structured adversarial debate; two eval protocols with agreement, κ, and position-bias metrics. |
+| [SOP-Guided Claims Agent](https://github.com/ChandhanSaai/sop-claims-agent) | An insurance-claims support agent where code owns the procedure and the model only reads and phrases: a four-phase state machine, schema-validated LLM reads, an output guard, and 326 offline replay tests. |
 | [Browser Autopilot](https://github.com/ChandhanSaai/Browser-Autopilot) | A vision-driven browser agent: a LangGraph + Playwright loop that turns plain-English web tasks into actions and auto-generates illustrated step-by-step tutorials. |
 | [LLM-Triaged Security Audit](https://github.com/ChandhanSaai/multi-scanner-security-audit-with-llm-triage) | Merges 8 SAST/secret/dependency scanners into one SARIF, then a two-pass LLM dedupes, filters false positives, and runs a semantic authz/IDOR reasoning pass into a ranked report. |
-| [GPT from Scratch](https://github.com/ChandhanSaai/GPT-Transformer-Architecture-with-Production-Training-Pipeline) | A GPT-2-style transformer implemented from scratch in PyTorch — hand-built multi-head attention, weight tying, and a mixed-precision + gradient-accumulation training loop. |
-| [Reinforcement Learning — Panda Arm](https://github.com/ChandhanSaai/-Reinforcement-Learning-Based-Pick-and-Place-Task-for-Panda-Robot) | A Soft Actor-Critic agent (Stable-Baselines3 + PyTorch) trained in the robosuite simulator to control a Franka Panda arm on a manipulation task. |
-| [Autonomous Robot Perception — TurtleBot](https://github.com/ChandhanSaai/ROS_2_TurtleBot_perception_project) | ROS 2 perception on a real TurtleBot: RANSAC vanishing-point detection, optical-flow obstacle stops, and a custom-trained YOLO detector driving lane-following in sim and on hardware. |
+| [Metered API Billing](https://github.com/ChandhanSaai/Metered_API_Billing) | Usage-based billing in Django + React built for correctness under concurrency: idempotent ingestion, tenant isolation, integer-cents tiered invoicing, and HMAC-verified webhooks. |
+| [GPT from Scratch](https://github.com/ChandhanSaai/GPT-Transformer-Architecture-with-Production-Training-Pipeline) | A GPT-2-style transformer implemented from scratch in PyTorch: hand-built multi-head attention, weight tying, and a mixed-precision + gradient-accumulation training loop. |
+
+**Robotics:** [SAC agent for a Panda arm in robosuite](https://github.com/ChandhanSaai/-Reinforcement-Learning-Based-Pick-and-Place-Task-for-Panda-Robot) · [ROS 2 TurtleBot perception](https://github.com/ChandhanSaai/ROS_2_TurtleBot_perception_project) · [ROS 2 pallet detection (YOLO)](https://github.com/ChandhanSaai/ROS2-Pallet-detection-and-ground-segmentation) · [Panda arm with MoveIt](https://github.com/ChandhanSaai/Controlling-panda-arm-manipulator-with-MoveIt)
 
 ---
 
 ### 🛠️ Tech I work with
 
-**LLMs & agents:** multi-agent orchestration · RAG · evals / LLM-as-judge · prompt & context engineering · function calling · MCP
-**ML:** PyTorch · Transformers · Stable Baselines3 · reinforcement learning · YOLO · computer vision
-**Languages:** Python · C++ · TypeScript · SQL
-**Production:** Django · React · PostgreSQL · Docker · AWS · Prometheus
-
----
-
-### 📫 Get in touch
-
-[LinkedIn](https://www.linkedin.com/in/chandhan-saai-katuri) · katurichandhansaai@gmail.com
+**LLMs & agents:** LLM evaluation / LLM-as-judge · agents and tool use (LangGraph) · MCP · RAG · computer-use agents (Playwright) · Anthropic Claude · OpenAI
+**ML:** PyTorch · Transformers · reinforcement learning · Stable Baselines3 · YOLO · computer vision
+**Languages:** Python · TypeScript · SQL · C++
+**Production:** Django REST Framework · FastAPI · React · PostgreSQL · Docker · AWS · Terraform
